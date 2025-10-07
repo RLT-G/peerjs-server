@@ -19,7 +19,7 @@ const peerServer = ExpressPeerServer(server, {
   allow_discovery: true,
 });
 
-app.use("/peerjs", peerServer);
+app.use("/", peerServer);
 
 const PORT = 3003
 
